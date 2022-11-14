@@ -1,0 +1,12 @@
+package com.robosoft.lorem.response;
+import lombok.Data;
+
+@Data
+public class BrandList
+{
+    private String brandName;
+    private String description;
+    private String logo;
+    private String profilePic;
+    private String brandOrigin;
+}

@@ -1,0 +1,18 @@
+package com.robosoft.lorem.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.multipart.MultipartFile;
+
+@Data
+@RequiredArgsConstructor
+@AllArgsConstructor
+public class userEditFields
+{
+    private int userId;
+    private String firstName;
+    private String lastName;
+    private String mobileNo;
+    private MultipartFile profilePic;
+}
